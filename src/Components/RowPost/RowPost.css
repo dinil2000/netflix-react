@@ -1,0 +1,68 @@
+.row{
+    color: #fff;
+    padding-left: 3.1rem;
+    padding-right: 3.1rem;
+    margin-top: 3rem;
+}
+
+.posters{
+    display: flex;
+    overflow-y: hidden;
+}
+
+.poster{
+    max-height: 130px;
+    border-radius: 5px;
+    margin-right: .5rem;
+}
+
+
+/* Style the scrollbar track */
+.posters::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+    height: 6px;
+  }
+  
+  /* Style the scrollbar thumb (the draggable part) */
+  .posters::-webkit-scrollbar-thumb {
+    background: #888; /* Background color of the thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+  }
+  
+  /* Style the scrollbar track when the thumb is being hovered */
+  .posters::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  /* Style the scrollbar track when it is in a "pressed" state (e.g., clicked) */
+  .posters::-webkit-scrollbar-thumb:active {
+    background: #444;
+  }
+  
+
+.pop-up{
+    top: -40px;
+    margin-left: -60px;
+    background-color: rgb(45, 43, 43);
+    border-radius: 5px;
+}
+
+.pop-img{
+    width: 350px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.description button{
+    padding: 0;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.3rem;
+    border-radius: 50%;
+}
+
+.icons-black{
+    background-color: rgb(35, 35, 35);
+    border: 1px solid #fff;
+    color: #fff;
+}
